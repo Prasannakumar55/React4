@@ -1,0 +1,49 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(yellowgreen, yellow, yellowgreen);
+}
+
+.Nav {
+    display: flex;
+    justify-content: space-around;
+    height: 30px;
+    background-color: yellowgreen;
+    padding: 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.Home {
+    font-size: 100px;
+    margin-left: 26vw;
+    margin-top: 100px;
+}
+.Contact{
+    font-size: 100px;
+    margin-left: 32vw;
+    margin-top: 100px;
+}
+.Addstudent{
+    display: flex;
+    justify-content: space-around;
+}
+.Addstudent > h1 {
+    font-size: 40px;
+}
+.Addstudent > button {
+    width: 200px;
+    height: 50px;
+    margin-top: 25px;
+    background-color: yellowgreen;
+    border: 2px solid yellowgreen;
+    border-radius: 10px;
+    font-size: 20px;
+}
+table{
+    width: 80vw;
+    height: 50vh;
+    margin: auto;
+    margin-top: 60px;
+    text-align: center;
+}
